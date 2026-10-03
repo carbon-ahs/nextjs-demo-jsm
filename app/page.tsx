@@ -1,5 +1,25 @@
 import React from 'react'
 import ExploreBtn from "@/components/ExploreBtn";
+import EventCard from "@/components/EventCard";
+
+const events = [
+    {
+        image: '/images/event1.png',
+        title: 'Event 1',
+        slug: 'event1',
+        location: 'Location 1',
+        date: "date-1",
+        time: "time-1"
+    },
+    {
+        image: '/images/event2.png',
+        title: 'Event 2',
+        slug: 'event2',
+        location: 'Location 2',
+        date: "date-2",
+        time: "time-2"
+    },
+]
 
 const Home = () => {
     return (
@@ -13,8 +33,10 @@ const Home = () => {
 
                 <ul className="events">
                     {
-                        [1, 2, 3, 4, 5, 6].map(event => (
-                            <li key={event}>Event {event}</li>
+                        events.map(event => (
+                            <li key={event.title}>
+                                <EventCard {...event} />
+                            </li>
                         ))
                     }
                 </ul>
