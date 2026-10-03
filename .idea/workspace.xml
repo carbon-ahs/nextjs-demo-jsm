@@ -4,36 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3a5f22-3bd2-4af6-a1c2-c7bb4402866a" name="Changes" comment="feat: light rays">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CustomLightRays.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ExploreBtn.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/LightRays.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/LightRays.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsm-resources/assets/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/arrow-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/audience.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/mode.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/event-full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/event1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/event2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/event3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/event4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/event5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/event6.png" afterDir="false" />
+    <list default="true" id="fa3a5f22-3bd2-4af6-a1c2-c7bb4402866a" name="Changes" comment="feat: assets added">
+      <change afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ExploreBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ExploreBtn.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,59 +52,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000035304675" />
-      <entry key="S5" value="1.0004212476517709" />
-      <entry key="S10" value="1.0250087709764653" />
-      <entry key="S30" value="1.865678583971621" />
-      <entry key="S60" value="3.817552525179869" />
-      <entry key="M2" value="6.542213698594065" />
-      <entry key="M5" value="9.684635662263265" />
-      <entry key="M10" value="11.22995867886136" />
-      <entry key="M15" value="12.34140536799726" />
-      <entry key="M30" value="21.46558938886474" />
-      <entry key="H1" value="54.167155149481026" />
-      <entry key="H2" value="105.72320218572207" />
-      <entry key="H4" value="153.64680658327777" />
-      <entry key="D1" value="213.20847771963713" />
-      <entry key="W1" value="225.81896242378627" />
+      <entry key="S2" value="1.0000000000000049" />
+      <entry key="S5" value="1.0000035187833063" />
+      <entry key="S10" value="1.0032269646243908" />
+      <entry key="S30" value="1.3215411925308285" />
+      <entry key="S60" value="2.3034175498479508" />
+      <entry key="M2" value="5.275351603092816" />
+      <entry key="M5" value="15.415705857507682" />
+      <entry key="M10" value="26.74362955743215" />
+      <entry key="M15" value="33.48699400680206" />
+      <entry key="M30" value="47.98017234874779" />
+      <entry key="H1" value="80.93720440039947" />
+      <entry key="H2" value="134.05267709472608" />
+      <entry key="H4" value="185.91616641427754" />
+      <entry key="D1" value="252.97395743286893" />
+      <entry key="W1" value="267.4809971391374" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.1379139005022742E-78" />
-      <entry key="S2" value="3.2661183202129894E-20" />
-      <entry key="S5" value="1.623696987192721E-8" />
-      <entry key="S10" value="1.4379580227699107E-4" />
-      <entry key="S30" value="0.09234340940343946" />
-      <entry key="S60" value="0.5748124819188982" />
-      <entry key="M2" value="1.5963278147534112" />
-      <entry key="M5" value="3.114299701925735" />
-      <entry key="M10" value="3.948417946119605" />
-      <entry key="M15" value="4.4258702912704795" />
-      <entry key="M30" value="7.004844007135579" />
-      <entry key="H1" value="15.07273240308287" />
-      <entry key="H2" value="27.17041154677094" />
-      <entry key="H4" value="38.169114092438164" />
-      <entry key="D1" value="51.66798502131986" />
-      <entry key="W1" value="54.50910997043116" />
+      <entry key="MS500" value="2.878007641988893E-152" />
+      <entry key="S2" value="1.3024857654435722E-38" />
+      <entry key="S5" value="7.013086479543368E-16" />
+      <entry key="S10" value="2.6482397082152355E-8" />
+      <entry key="S30" value="0.003093713656898212" />
+      <entry key="S60" value="0.07839962434651937" />
+      <entry key="M2" value="0.633578024842087" />
+      <entry key="M5" value="3.095453437952289" />
+      <entry key="M10" value="6.035291483353578" />
+      <entry key="M15" value="7.859439535673523" />
+      <entry key="M30" value="11.807368234711044" />
+      <entry key="H1" value="20.10595493220964" />
+      <entry key="H2" value="32.75555025981798" />
+      <entry key="H4" value="44.7934423547663" />
+      <entry key="D1" value="60.132523353983565" />
+      <entry key="W1" value="63.42837371259329" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.4632940309451854" />
-      <entry key="MS500" value="0.8573760366341716" />
-      <entry key="S2" value="0.9622608925254512" />
-      <entry key="S5" value="0.9850247672090983" />
-      <entry key="S10" value="1.0139100220512594" />
-      <entry key="S30" value="1.9241723108541353" />
-      <entry key="S60" value="4.3352091350219" />
-      <entry key="M2" value="8.073376389336127" />
-      <entry key="M5" value="12.751861727231411" />
-      <entry key="M10" value="15.149087169211683" />
-      <entry key="M15" value="16.74542184631475" />
-      <entry key="M30" value="28.452640720627112" />
-      <entry key="H1" value="69.22006552919412" />
-      <entry key="H2" value="132.8754314992066" />
-      <entry key="H4" value="191.80304064493157" />
-      <entry key="D1" value="264.87353631387714" />
-      <entry key="W1" value="280.3276308083394" />
+      <entry key="MS100" value="0.7845840978967508" />
+      <entry key="MS500" value="0.9526379980439373" />
+      <entry key="S2" value="0.9879431971405203" />
+      <entry key="S5" value="0.9951627263201754" />
+      <entry key="S10" value="1.0004603497821571" />
+      <entry key="S30" value="1.3086028157539225" />
+      <entry key="S60" value="2.3460265657290207" />
+      <entry key="M2" value="5.847236887762925" />
+      <entry key="M5" value="18.42915909866939" />
+      <entry key="M10" value="32.70742231576558" />
+      <entry key="M15" value="41.286914332357625" />
+      <entry key="M30" value="59.7459586956173" />
+      <entry key="H1" value="101.01079987345894" />
+      <entry key="H2" value="166.78332410452575" />
+      <entry key="H4" value="230.69299552660195" />
+      <entry key="D1" value="313.10282450669996" />
+      <entry key="W1" value="330.90882121620496" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -229,7 +205,7 @@
       <workItem from="1790962407960" duration="2699000" />
       <workItem from="1790965142053" duration="669000" />
       <workItem from="1790998037695" duration="3541000" />
-      <workItem from="1791002081346" duration="2995000" />
+      <workItem from="1791002081346" duration="4104000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <option name="closed" value="true" />
@@ -271,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790965978546</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: assets added">
+      <option name="closed" value="true" />
+      <created>1791009347759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1791009347759</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +278,7 @@
     <MESSAGE value="chore: readme edit" />
     <MESSAGE value="feat: api routes" />
     <MESSAGE value="feat: light rays" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: light rays" />
+    <MESSAGE value="feat: assets added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: assets added" />
   </component>
 </project>
